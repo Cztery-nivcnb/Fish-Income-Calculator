@@ -1,15 +1,14 @@
 #สร้างฟังก์ชันนับปลา
 def get_fish_money(fish_count):
     return fish_count * 20
-
+#สร้างตัวเเปรผลรวมปลาไว้โดยกำหนดค่า 0 เพื่อเป็นช่องว่าง
 total_fish = 0
 #สร้างวนลูปเพื่อให้มันวนถาม4รอบ
 for day in range(1, 5):
     to_day = int(input(f"Day {day} How many fish did you catch?:"))
     total_fish += to_day 
-    
     #เอาตัวเเปลtotal_fish มาบวกกับตัวเเปร to_day เพื่อให้ลูปนับคะเเนนทั้ง4รอบ
-    print(f"You caught {to_day} fish")
+    print(f"You caught {to_day} fish") 
 total_money = get_fish_money(total_fish)
 print("-------------------------------")
 print(f"total fish caught: {total_fish}") #เเสดงผลรวมปลา
