@@ -10,4 +10,4 @@
 - คัดลอกโค้ดจาก VS Code ลง Github ลงGithub
 
 ##ผลลัพธ์การทำงาน (Output)
-![Output Screenshot](20260508_234242.jpg)
+![Output Screenshot](IMG_20260508_234242.jpg)
